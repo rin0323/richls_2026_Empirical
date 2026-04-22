@@ -8,3 +8,30 @@
 ファイルサイズの人間可読化や、README・PDFのメタデータ表示などに対応しています。
 また、更新が新しいファイルには"new"を付与し、.gitignore 等も考慮して表示します。
 用途に応じてソート方法を柔軟に変更可能です。
+
+# Usage
+
+```bash
+
+Usage:
+  richls [FILE]
+  richls -l [OPTIONS] [FILE]
+
+Argument:
+  表示対象のパス。省略した場合は現在のディレクトリを表示します。
+
+Options:
+  -l, --long              詳細表示モード
+
+      --humanize          ファイルサイズを 1.2GB などの形式で表示
+      --tagline           README.md の概要を表示
+      --pdf-title         PDF 内のタイトルを表示
+      --respect-ignore    .gitignore などを考慮して表示
+      --new-mark          24時間以内のファイルに 🆕 を付与
+      --sort <key>        ソート順を指定
+                          [name | size | mtime]
+
+  -h, --help              ヘルプを表示
+
+  -V, --version           バージョンを表示
+```

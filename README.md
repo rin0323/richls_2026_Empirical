@@ -40,3 +40,12 @@ $ richls
 $ richls documents/
 # documentディレクトリにあるファイルを表示
 ```
+# Installasion
+
+# About
+## License
+
+## Author
+Yamaguchi Rin
+
+

@@ -1,5 +1,6 @@
 # richls
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/rin0323/richls_2026_Empirical/blob/main/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/rin0323/richls/badge.svg?branch=main)](https://coveralls.io/github/rin0323/richls?branch=main)
 
 様々な機能を追加したls
 
